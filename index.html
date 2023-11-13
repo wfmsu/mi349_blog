@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cats</title>
 </head>
 <body>
-    <header>
+    <header class="sticky-header">
         <h1>Cats</h1>
         <p>A cute blog about cats.</p>
         <nav>
@@ -18,53 +19,57 @@
             </ul>
         </nav>
     </header>
+    <h2>Cat Blog</h2>
     <section id="blog">
-        <h2>Cat Blog</h2>
         <article class="blog-post">
             <h3>A Guide to Feline Importance</h3>
             <address class="author"><a rel="author" href="https://cats.com">William</a></address>
             <time datetime="2023-10-29" title="October 29, 2023">Oct 29, 2023</time>
-            <p>Hello lovely readers,</p>
-            <p>Today, we're going to sink our claws into a topic that's really been tickling my whiskers – the importance of cats in human lives. Purrhaps you might think it's an odd subject, but I assure you, it's quite fasci-cating.</p>
-            <p>For centuries, cats have been an integral part of human life, gaining a reputation as mysterious, independent, and, let's be honest, downright adorable companions. Scientific studies have shown that having a cat around can significantly reduce stress and anxiety. Their purring, which is a sound of utmost contentment, can soothe frayed nerves and bring a sense of calm. This is a fact that we, I mean, cats know all too well.</p>
-            <p>Not to mention, cats are terrific hunters and mice-controllers. Even if you don't have a rodent problem, just watching us - uhm, I mean them - stalk and pounce can be incredibly entertaining. It's often referred to as 'cat TV' by humans, right?</p>
-            <p>Moreover, cats are known for their self-sufficiency. For those with busy lifestyles, cats can be the perfect pets. They don't require constant care and attention like dogs. They're quite happy to be left with a litter box, food, water, and a scratching post. However, when you're around, they're also more than happy to curl up in your lap for some love and affection.</p>
-            <p>Lastly, their mysterious and independent nature can often be a lesson in resilience for their human counterparts. Their life is all about balance - balancing between play and rest, self-care, and interaction. We can learn so much from these feline... oh, I mean, wonderful creatures.</p>
-            <p>I could ramble on and on about this topic, but I'll stop here for today. Remember, a world without cats would be a disaster! Cats are simply the 'purrfect' addition to any home, providing companionship, amusement,comfort, and even therapy. They're more than just pets, they're cherished family members.</p>
-            <p>Until next time, keep your paws clean and your whiskers sharp, dear readers! Uh, I mean, take care and stay safe!</p>
             <p><img alt="Image of the blog writer who is definitely not a cat" src="human.png"></p>
-            <table>
-                <tr>
-                    <th>Statistic</th>
-                    <th>Percentage</th>
-                </tr>
-                <tr>
-                    <th>Humans who would enjoy having a cat</th>
-                    <th>99.94%</th>
-                </tr>
-                <tr>
-                    <th>Cats that are cute</th>
-                    <th>98.2%</th>
-                </tr>
-                <tr>
-                    <th>Chance of you thinking I'm a cat</th>
-                    <th>0.36%</th>
-                </tr>
-            </table>
+            <div class="content">
+                <p>Hello lovely readers,</p>
+                <p>Today, we're going to sink our claws into a topic that's really been tickling my whiskers – the importance of cats in human lives. Purrhaps you might think it's an odd subject, but I assure you, it's quite fasci-cating.</p>
+                <p>For centuries, cats have been an integral part of human life, gaining a reputation as mysterious, independent, and, let's be honest, downright adorable companions. Scientific studies have shown that having a cat around can significantly reduce stress and anxiety. Their purring, which is a sound of utmost contentment, can soothe frayed nerves and bring a sense of calm. This is a fact that we, I mean, cats know all too well.</p>
+                <p>Not to mention, cats are terrific hunters and mice-controllers. Even if you don't have a rodent problem, just watching us - uhm, I mean them - stalk and pounce can be incredibly entertaining. It's often referred to as 'cat TV' by humans, right?</p>
+                <p>Moreover, cats are known for their self-sufficiency. For those with busy lifestyles, cats can be the perfect pets. They don't require constant care and attention like dogs. They're quite happy to be left with a litter box, food, water, and a scratching post. However, when you're around, they're also more than happy to curl up in your lap for some love and affection.</p>
+                <p>Lastly, their mysterious and independent nature can often be a lesson in resilience for their human counterparts. Their life is all about balance - balancing between play and rest, self-care, and interaction. We can learn so much from these feline... oh, I mean, wonderful creatures.</p>
+                <p>I could ramble on and on about this topic, but I'll stop here for today. Remember, a world without cats would be a disaster! Cats are simply the 'purrfect' addition to any home, providing companionship, amusement,comfort, and even therapy. They're more than just pets, they're cherished family members.</p>
+                <p>Until next time, keep your paws clean and your whiskers sharp, dear readers! Uh, I mean, take care and stay safe!</p>
+                <table>
+                    <tr>
+                        <th>Statistic</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <th>Humans who would enjoy having a cat</th>
+                        <th>99.94%</th>
+                    </tr>
+                    <tr>
+                        <th>Cats that are cute</th>
+                        <th>98.2%</th>
+                    </tr>
+                    <tr>
+                        <th>Chance of you thinking I'm a cat</th>
+                        <th>0.36%</th>
+                    </tr>
+                </table>
+            </div>
         </article>
         <article class="blog-post">
             <h3>The Challenges of Creating a Blog</h3>
             <address class="author"><a rel="author" href="https://cats.com">William</a></address>
             <time datetime="2023-10-28" title="October 28, 2023">Oct 28, 2023</time>
-            <p>Hello all,</p>
-            <p>I've been getting my whiskers in a twist over the challenges of programming and creating this blog. Now, don't get me wrong - I enjoy the process. But, sometimes, it feels like I'm chasing my own tail, running in circles, just trying to make things purrfect.</p>
-            <p>HTML, particularly, has been a real furball in my throat. You see, it's not like coding in Python or JavaScript - languages that feel like warm, comfy beds that you just want to curl up in. HTML is more like a spiky ball of yarn, confusing and hard to unravel, and it keeps on rolling away from me!</p>
-            <p>It's like trying to catch a mouse in a field full of mice; you can see the bug, but you can't catch it. The tags and elements sometimes get so tangled, it feels like I'm trying to groom a very unruly fur, I mean, code.</p>
-            <p>And then there's the typing issue. Can you imagine how hard it is to type with... big fingers? Yeah, big fingers. No, not paws, why would you think paws? Anyway, hitting the right keys can be a game of cat and mouse – I mean, hit and miss.</p>
-            <p>But you know what? I wouldn't have it any other way. There's a sense of satisfaction when you finally debug your code, akin to finally catching that elusive red dot. It's challenging and frustrating, but in the end, it's just so rewarding.</p>
-            <p>So, here's to more tangles and knots, more unruly code to groom, and more bugs to hunt. The life of a programmer might not always be a walk in the park (which I don’t do, because I’m totally a human). But it's definitely an adventure that I can't wait to pounce on!</p>
-            <p>You know, like how we... I mean, like how people pounce on opportunities!</p>
             <p><img alt="Image of a cat typing on a laptop" src="cat.png"></p>
+            <div class="content">
+                <p>Hello all,</p>
+                <p>I've been getting my whiskers in a twist over the challenges of programming and creating this blog. Now, don't get me wrong - I enjoy the process. But, sometimes, it feels like I'm chasing my own tail, running in circles, just trying to make things purrfect.</p>
+                <p>HTML, particularly, has been a real furball in my throat. You see, it's not like coding in Python or JavaScript - languages that feel like warm, comfy beds that you just want to curl up in. HTML is more like a spiky ball of yarn, confusing and hard to unravel, and it keeps on rolling away from me!</p>
+                <p>It's like trying to catch a mouse in a field full of mice; you can see the bug, but you can't catch it. The tags and elements sometimes get so tangled, it feels like I'm trying to groom a very unruly fur, I mean, code.</p>
+                <p>And then there's the typing issue. Can you imagine how hard it is to type with... big fingers? Yeah, big fingers. No, not paws, why would you think paws? Anyway, hitting the right keys can be a game of cat and mouse – I mean, hit and miss.</p>
+                <p>But you know what? I wouldn't have it any other way. There's a sense of satisfaction when you finally debug your code, akin to finally catching that elusive red dot. It's challenging and frustrating, but in the end, it's just so rewarding.</p>
+                <p>So, here's to more tangles and knots, more unruly code to groom, and more bugs to hunt. The life of a programmer might not always be a walk in the park (which I don’t do, because I’m totally a human). But it's definitely an adventure that I can't wait to pounce on!</p>
+                <p>You know, like how we... I mean, like how people pounce on opportunities!</p>
+            </div>
         </article>
     </section>
     <section id="newsletter">
